@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FlyingSong</string>
+
+    <array name="size">
+        <item>mp3(128k) %s</item>
+        <item>mp3(320k) %s</item>
+        <item>ape %s</item>
+        <item>flac %s</item>
+    </array>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="download">下载</string>
+    <string name="download_title">确定要下载 %s？</string>
+    <string name="song_exist">%s 已存在！</string>
+    <string name="search">查找</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="2dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical">
+
+    <ImageView
+        tools:src="@drawable/icon_ranklist"
+        android:id="@+id/ranklist_img"
+        android:layout_width="100dp"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/ranklist_img">
+        <TextView
+            android:id="@+id/tv1_ranklist"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            tools:text="1、离人愁-曲肖冰"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv2_ranklist"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            tools:text="1、离人愁-曲肖冰"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv3_ranklist"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            tools:text="1、离人愁-曲肖冰"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>
